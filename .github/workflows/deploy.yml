@@ -23,7 +23,7 @@ jobs:
       - name: Deploy CloudFormation stack
         run: |
           aws cloudformation deploy \
-            --template-file alb.yml
+            --template-file alb.yml \
             --stack-name minealbstack \
             --parameter-overrides \
               VPC=vpc-033eaabce0ebd2d08 \
