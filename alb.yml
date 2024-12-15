@@ -13,7 +13,7 @@ Parameters:
   PublicSubnet2:
     Type: String
     Description: The subnet where to launch the service
-    Default: subnet-ID
+    Default: subnet-0c26e231c9633aca5
 
 Resources:
   ALBSecurityGroup:
