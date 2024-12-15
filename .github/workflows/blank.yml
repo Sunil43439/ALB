@@ -30,14 +30,14 @@ jobs:
               PublicSubnet1=subnet-00259a4b63a67b70f \
               PublicSubnet2=subnet-0c26e231c9633aca5 \
             --capabilities CAPABILITY_NAMED_IAM
-```
 
-This workflow does the following:
+
+# This workflow does the following:
 1. **Triggers on push to the main branch**.
 2. **Checks out the code**.
 3. **Configures AWS credentials** using secrets stored in your GitHub repository.
 4. **Deploys the CloudFormation stack** using the AWS CLI.
 
-Make sure to replace `path/to/your-template.yml` with the actual path to your CloudFormation template file and `your-stack-name` with the desired name for your CloudFormation stack. Also, ensure your AWS credentials and other necessary secrets are added to your repository secrets.
+# Make sure to replace `path/to/your-template.yml` with the actual path to your CloudFormation template file and `your-stack-name` with the desired name for your CloudFormation stack. Also, ensure your AWS credentials and other necessary secrets are added to your repository secrets.
 
-If you need further customization or have specific requirements, feel free to let me know![1](https://docs.github.com/en/actions/use-cases-and-examples/deploying/deploying-with-github-actions)[2](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
+# If you need further customization or have specific requirements, feel free to let me know![1](https://docs.github.com/en/actions/use-cases-and-examples/deploying/deploying-with-github-actions)[2](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions)
