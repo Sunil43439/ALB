@@ -24,7 +24,7 @@ jobs:
         run: |
           aws cloudformation deploy \
             --template-file alb.yml
-            --stack-name albstack \
+            --stack-name minealbstack \
             --parameter-overrides \
               VPC=vpc-033eaabce0ebd2d08 \
               PublicSubnet1=subnet-00259a4b63a67b70f \
